@@ -19,9 +19,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 100%;
-  max-width: 528px;
-  /* height: 581px; */
+  width: 528px;
   padding: 40px;
   background-color: #fff;
 }
@@ -109,7 +107,7 @@ textarea{
 
 .form-heading{
   text-align: center;
-  padding-top: 35px;
+  font-size: 20px;
   margin-bottom: 12px;
   color: #212121;
 }
@@ -117,6 +115,8 @@ textarea{
 .agreement{
   display: flex;
   align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
 }
 
 .checkbox{
@@ -137,7 +137,7 @@ textarea{
   color: #FFFFFF;
   border-radius: 4px;
   display: block;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
 .name-svg,
@@ -167,9 +167,4 @@ textarea{
 
 .frm{
   margin-left: 25px;
-}
-
-.mail-svg,
-.phone-svg{
-    fill: currentColor;
 }

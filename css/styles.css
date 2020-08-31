@@ -157,7 +157,7 @@ border-radius: 4px
 
 .site-nav .link.current{
     color: var(--accent-color);
-} */
+} 
 
 
 /* .hero-title{
@@ -673,7 +673,7 @@ color: #212121;
 }
 .form-wraper-close:hover{
     color: #188CE8;
-} */ */
+} */
 
 /* .krestik-svg{
     fill: currentColor;
@@ -860,8 +860,8 @@ border-radius: 4px;
 
 
 
-
-/* цвет основного текста #757575 */
+/* 
+цвет основного текста #757575 */
 /* цвет вторичного текста #212121 */
 /* белый текст #FFFFFF */
 /* акцент #2196F3 */

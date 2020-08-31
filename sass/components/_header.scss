@@ -48,10 +48,12 @@
 .mail-svg-n,
 .phone-svg-n{
     fill: currentColor;
+    margin-right: 10px;
+    vertical-align: middle;
 }
 
 .site-nav .link{
-  color: var(--title-text-color);
+  color: $title-text-color;
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
@@ -65,11 +67,11 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus{
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .site-nav .link.current{
-  color: var(--accent-color);
+  color: $accent-color;
 }
 
 .container .main-nav{
@@ -82,7 +84,6 @@
 .link-mail,
 .link-tel{
     position: relative;
-    padding-left: 10px;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 500;
@@ -99,5 +100,5 @@ color: #757575;
 .link-mail:focus,
 .link-tel:hover,
 .link-tel:focus{
-    color: var(--accent-color);
+    color: $accent-color;
 }

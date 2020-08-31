@@ -1,6 +1,8 @@
 // общие для всех єлементов, свойства
-@import "./base/common";
 @import './utils/variables';
+@import './base/normalize';
+@import "./base/common";
+
 // только совйства контейнера под все типы устройств
 @import "./components/container";
 
